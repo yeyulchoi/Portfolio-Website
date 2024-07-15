@@ -45,6 +45,15 @@ background:rgba(3, 3, 3, 0.7)
     border-radius: 5px;;
 
 }
+
+.project:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+::placeholder {
+    color: yellow;
+  }
 @media(max-width:768px){
     .header .social i{
         font-size:30px;
