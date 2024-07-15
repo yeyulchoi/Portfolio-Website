@@ -26,6 +26,25 @@ background:rgba(3, 3, 3, 0.7)
     bottom:50px;
 }
 
+.skills{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    font-size: 1.2rem;
+}
+.skills .box{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.skills h5{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;;
+
+}
 @media(max-width:768px){
     .header .social i{
         font-size:30px;
